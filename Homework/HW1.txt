@@ -1,0 +1,32 @@
+1.  The difference between an imperative language and a A declarative language is in the declarative language you specify what you want to get and not how to get it, letting the RDBMS figure out the physical
+
+mechanics required to process your request and in an imperative one you dont do that
+2. Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL)
+
+3. Databases in RDBMS are used to organize data in tables so they can be used with other data in diferent tables; A Resource Databasee is a hidden, read-only database that holds the definitions of all system objects.  Human resource dtabase is a refference to a database
+
+4. My understanding of minimal or no redundancy and completeness means to be as efficient as possible and I think these valuse are important because efficiency is good. Ensures data integrity and relies on the system to make the query work more smoothly and not have any mistakes when updating files.
+
+5. Two-valued is either true or false, three-valued allows for three possible values such as true, false ,missing/unkown four-value adds a differerntiation between missing/unknown applicable values and missing/unknown non-applicable values. (sql only had 3 values when created)
+
+6. Through Candidate Keys: Entity Integrity is when there isn't more than one occurrence of the same tuple (row in SQL) in a relation(sql enforces entity entigity through primary key. All objects have to be unique.)
+
+7. Through Foreign Keys; Referential Integrity is when you don't refence something outside of the referenced relation’s candidate-key attributes (if you refer to something it has to exist. )
+
+8. Representation. (A set. Every object in a set has to be unique.)
+
+9. (a) Set Theory is thinking of things in groups even though they individual components within them ; A set is a collection of objects.(The Set itself is treated as an Item in whole; A collection of unordered unique or distinct objects. ABC and BAC are equal because order doesn't matter and all objects in the set must be unique.)
+
+(b) Predicate Logic are the rules that help define set theory in a relational database.(Deals with True or False propositions. A predicate is a statement which evaluates to either true or false.)
+
+(c) relational algebra provides a foundation for relational databases, particularly query languages for such databases; A Selections is is a unary operation that denotes a subset of a relation; A projection is picking a subset of all available columns. A Projection can be used to modify an attribute's value. (relational algebra consists of a small number of operations. Selection is a horizontal concept for choosing rows, Projections is choosing columns.)
+
+10. No; Because there are multiple columns for the Primary and Candidate Keys; To change it to the 1NF i'd sepereate the faCreds in different columns for different types of credentials. (Create a seprate table for facID int, facNAme text; credID int, credName text; )
+
+11. No; Because there is only one relation. I would Split up the table into multiple tables. (create a tabe for owner's id, first name, lastname; pet table for pet id, pet name, pet breed; owner pet table for pet id, owner id, owner first name, owner last name;)
+
+12. No; Because it doesn't conform to the 2NF rules. I'd create multiple tables and make  all nonkey attributes must be mutually independent. (transient dependancy- 1 column depends on another column.)
+
+13. Schema, Database, Instance, Object (server Name)
+
+14. Data integrity enforced as part of the model—namely, as part of the table definitions—is considered declarative data integrity; Data integrity enforced with code—such as with stored procedures or triggers—is considered procedural data integrity.

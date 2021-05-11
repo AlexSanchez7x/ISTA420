@@ -1,0 +1,13 @@
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\bin\Debug\netcoreapp3.1\CSharpEx06.exe
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\bin\Debug\netcoreapp3.1\CSharpEx06.deps.json
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\bin\Debug\netcoreapp3.1\CSharpEx06.runtimeconfig.json
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\bin\Debug\netcoreapp3.1\CSharpEx06.runtimeconfig.dev.json
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\bin\Debug\netcoreapp3.1\CSharpEx06.dll
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\bin\Debug\netcoreapp3.1\CSharpEx06.pdb
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.csprojAssemblyReference.cache
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.AssemblyInfoInputs.cache
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.AssemblyInfo.cs
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.csproj.CoreCompileInputs.cache
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.dll
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.pdb
+C:\Users\Okami\MSSA2021\ISTA420\Excercises\CSharpEx06\obj\Debug\netcoreapp3.1\CSharpEx06.genruntimeconfig.cache

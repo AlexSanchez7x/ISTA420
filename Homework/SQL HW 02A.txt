@@ -1,0 +1,24 @@
+1. FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY ( It executes in the order that is most logical)
+
+2. The FROM clasuse is the very first query clause that is logically processed. This clause is where you specify the names of Tables you want to query and the table operators that operate on those tables. The FROM clause is where you specify the name of the table you want to query.(Gets all the rows from all your tables without limit)
+
+3. In the WHERE clause, you specify a predicate or logical expression to filter the rows returned by the FROM phase. Only rows for which the logical expression evaluates to TRUE are returned by the WHERE phase to the subsequent logical query processing phase (The WHERE clause filters out the rows that the FROM clause brings up according to what you are looking for with the predicate you used to call)
+
+4. You can use the GROUP BY phase to arrange the rows returned by the previous logical query processing phase in groups. The groups are determined by the elements you specify in the GROUP BY clause. (Groups rows by the same value. it does'nt bring up details brought up by individual rows)
+
+5. The HAVING clause is a group filter. Only groups for which the HAVING predicate evaluates to TRUE are returned by the HAVING phase to the next logical query processing phase. Groups for which the predicate evaluates to FALSE or UNKNOWN are discarded. (Filters to whatever the predicate you set the HAVING clause to)
+
+6. The SELECT clause is where you specify the attributes (columns) you want to return in the result table of the query (relates to prjection in algebra)
+
+7. The Distinct keyword will handle distinct occurrences of known values.
+
+8. The ORDER BY clause is used to sort the rows in the output. In terms of logical query processing, ORDER BY is the very last clause to be processed
+
+9. The LIMIT clause constrains the number of rows returned by a SELECT statement. 
+
+10. The TOP filter is use to limit the number or percentage of rows your query returns. It relies on two elements as part of its specification: one is the number or percent of rows to return, and the other is the ordering
+
+11. The OFFSET-FETCH clause support a skipping option. This makes it very useful for ad-hoc paging purposes. (FETCH indicates how many rows to pull after the OFFSET has been pulled)
+
+Data Manipulation Language (DML) is a vocabulary used to retrieve and work with data in SQL Server 2019 (15.x) and SQL Database. Most also work in Azure Synapse Analytics and Parallel Data Warehouse (review each individual statement for details). Use these statements to add, modify, query, or remove data from a SQL Server database.
+
